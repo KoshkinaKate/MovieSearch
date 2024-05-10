@@ -1,0 +1,73 @@
+.App{
+    /* border:solid pink; */
+    font-family: Value-Serif-Regular, Halant, Vollkorn, Georgia, sans-serif;
+    background-color: ivory;
+  
+}
+/* ---------------------------------NAV BAR - BUTTON */
+.custom-button{
+    /* border: solid red; */
+    border-radius: 10px;
+    background-color: ivory;
+    color:green;
+    font-family: Value-Serif-Regular, Halant, Vollkorn, Georgia, sans-serif;
+    padding: 5px;
+    margin: 9px;
+    font-size: 20px;
+
+}
+.form-container{
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+.custom-input{
+    /* border: solid yellow; */
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: ivory ;
+
+}
+.custom-input::placeholder {
+    font-family: "Value-Serif-Regular", "Halant", "Vollkorn", Georgia, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/*               Name of the movie-------------------- */
+.movie-name{
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: green;
+    margin: 7px;
+}
+.movie-category{
+    /* border:solid pink; */
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px 15px 5px;
+    
+}
+.movie-pic{
+     /* border: solid red; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin-left: 300px; */
+}
+.div-pic{
+    /* border: solid blue; */
+    justify-content: center;
+    display: flex;
+}
+.movie-year{
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    color:green;
+}

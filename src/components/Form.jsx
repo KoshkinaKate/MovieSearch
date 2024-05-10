@@ -20,15 +20,17 @@ export default function Form (props) {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <form onSubmit={handleSubmit}>
         <input
+        className="custom-input"
           type="text"
           name="searchterm"
           onChange={handleChange}
           value={formData.searchterm}
+          placeholder="Enter your movie here"
         />
-        <input type="submit" value="submit" />
+      <button className="custom-button" type="submit">Submit</button>
       </form>
     </div>
   );

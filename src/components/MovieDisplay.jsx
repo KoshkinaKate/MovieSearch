@@ -5,10 +5,10 @@ export default function MovieDisplay({ movie }){
     const loaded = () => {
       return (
         <>
-          <h1>{movie.Title}</h1>
-          <h2>{movie.Genre}</h2>
-          <img src={movie.Poster} alt={movie.Title} />
-          <h2>{movie.Year}</h2>
+          <h1 className="movie-name">{movie.Title}</h1>
+          <h2 className="movie-category">{movie.Genre}</h2>
+         <div className='div-pic'> <img className ="movie-pic"src={movie.Poster} alt={movie.Title} /></div>
+          <h2 className="movie-year">{movie.Year}</h2>
         </>
       );
     };
